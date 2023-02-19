@@ -6,7 +6,7 @@ plugins {
 
 java {
 // provide sourceCompatibility
-    sourceCompatibility = 17
+    sourceCompatibility = 11
 }
 
 repositories {
