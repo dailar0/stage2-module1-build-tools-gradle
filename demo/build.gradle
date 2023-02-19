@@ -1,5 +1,18 @@
 //add everything here
 
+plugins{
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation project(':utils')
+}
+
 test {
     useJUnitPlatform()
 }
